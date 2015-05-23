@@ -1,0 +1,23 @@
+/*html, body {
+    height: 100%;
+} 
+
+.wrapper {
+    min-height: 100%; 
+    height: auto !important; 
+    height: 100%; 
+    margin: 0 auto -8em;
+}
+
+.footer, .push {
+    height: 8em;
+}*/
+
+.content {
+    color: #333; 
+    padding-top: 200px; 
+    font-family: Courier; 
+    font-size: 24px; 
+    font-weight: bold;
+}
+

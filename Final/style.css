@@ -1,0 +1,48 @@
+/****** © Copyright 2015 www.thingsstockbrokerssay.com - All Rights Reserved 
+/******Property of Gale Technologies LLC www.galetechnologiesllc.com*******/
+a.main:link {
+    text-decoration: none;
+}
+
+a.hashTag:link {
+    text-decoration: none;
+}
+
+a.footer:link {
+    text-decoration: none;
+}
+
+
+.content {
+    color: #333; 
+    padding-top: 300px; 
+    font-family: Courier; 
+    font-size: 30px; 
+    font-weight: bold;
+}
+
+.footer {
+    color: #333; 
+    font-family: Courier; 
+    font-size: 15px; 
+    font-weight: bold;
+}
+
+div.main { 
+    cursor: pointer; 
+    cursor: hand; 
+}
+
+p {
+    text-align: center;
+    padding-bottom: 350px;
+}
+
+
+h1 {
+    color: #333; 
+    font-family: Courier; 
+    font-size: 20px; 
+    font-weight: bold;
+    text-align: center;
+}

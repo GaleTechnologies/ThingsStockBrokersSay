@@ -8,7 +8,7 @@ $a = $fileContents;
 $q = $_REQUEST["q"];
 
 $hint = "";
-$printOutput = $fileContents[$q] . "   " . $q ;
+$printOutput = $fileContents[$q];
 $hint = $printOutput;
 
 echo $hint;

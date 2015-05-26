@@ -1,6 +1,6 @@
 <?php 
-//© Copyright 2015 www.thingsstockbrokerssay.com - All Rights Reserved 
-//Property of Gale Technologies LLC www.galetechnologiesllc.com
+/****** Copyright © 2015 www.thingsstockbrokerssay.com - All Rights Reserved 
+/******Property of Gale Technologies LLC www.galetechnologiesllc.com*******/
 
 $myFile = "testing.txt";
 $fileContents = file($myFile);
@@ -31,44 +31,7 @@ $printOutput = $fileContents[$lineNumber];
         ga('create', 'UA-62870449-1', 'auto');
         ga('send', 'pageview');
     </script>
-    <script type="text/javascript">
-    var usedNumbers = []; 
-
-    console.log("hello");
-
-    function getRandomInt(min, max) {
-        return Math.floor(Math.random() * (max - min + 1)) + min;
-    }
-
-    $(window).load(function () {
-      makeid();
-    });
-
-    function ContentCount() {
-         var xmlhttp = new XMLHttpRequest();
-         xmlhttp.onreadystatechange = function() {
-             if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-                 document.getElementById("txtHint").innerHTML = xmlhttp.responseText;
-             }
-         }
-         xmlhttp.open("GET", "getContent.php?q="+str, true);
-         xmlhttp.send();
-    }
-
-    function makeid() {
-
-        var str = getRandomInt(0,41);
-
-         var xmlhttp = new XMLHttpRequest();
-         xmlhttp.onreadystatechange = function() {
-             if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
-                 document.getElementById("txtHint").innerHTML = xmlhttp.responseText;
-             }
-         }
-         xmlhttp.open("GET", "getContent.php?q="+str, true);
-         xmlhttp.send();
-    }
-</script>
+    <script src="http://www.thingsstockbrokerssay.com/mainJS.js" type="text/javascript"></script>
 </head>
 
 <body>
